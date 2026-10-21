@@ -1,0 +1,12 @@
+{
+ "plan_rows": 58,
+ "skipped_active": 14,
+ "right_moves": 42,
+ "wrong_moves": 0,
+ "left_correctly": 3,
+ "left_but_should_move": 13,
+ "moved_in_apply": 42,
+ "plan_wall_seconds": 596.1,
+ "apply_seconds": 0.09,
+ "undo": "72 of 72 byte-identical (e2e-before.sha == e2e-after.sha)"
+}

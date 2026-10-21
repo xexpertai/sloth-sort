@@ -1,0 +1,493 @@
+{
+ "model": "gemma-4-E2B-it-Q4_0",
+ "baseline": {
+  "files": 47,
+  "right_moves": 11,
+  "wrong_moves": 3,
+  "left_correctly": 3,
+  "left_but_should_move": 30,
+  "accuracy": 0.298
+ },
+ "sloth": {
+  "files": 47,
+  "right_moves": 42,
+  "wrong_moves": 0,
+  "left_correctly": 3,
+  "left_but_should_move": 2,
+  "accuracy": 0.957
+ },
+ "total_model_seconds": 415.7,
+ "mean_seconds_per_file": 8.8,
+ "rows": [
+  {
+   "file": "IMG_notes.md",
+   "truth": "recipes",
+   "baseline": "leave",
+   "folder": "recipes",
+   "confidence": "high",
+   "reason": "The file contains a 'Weekly meal plan' and specific cooking instructions, which clearly belongs in the 'recipes' folder.",
+   "source": "model",
+   "seconds": 8.3
+  },
+  {
+   "file": "IMG_notes.txt",
+   "truth": "recipes",
+   "baseline": "leave",
+   "folder": "recipes",
+   "confidence": "high",
+   "reason": "The file contains a recipe for 'Pesto Pasta' with ingredients and method.",
+   "source": "model",
+   "seconds": 6.7
+  },
+  {
+   "file": "New Text Document(5).md",
+   "truth": "work-meetings",
+   "baseline": "leave",
+   "folder": "work-meetings",
+   "confidence": "high",
+   "reason": "The file contains 'Standup notes' with items like 'done', 'blocked', and 'next' tasks, which strongly suggests meeting or project status/log",
+   "source": "model",
+   "seconds": 8.8
+  },
+  {
+   "file": "New Text Document.ics",
+   "truth": "work-meetings",
+   "baseline": "work-meetings",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file name 'New Text Document.ics' suggests it might be an iCalendar file, which relates to scheduling or events. However, without any of",
+   "source": "model",
+   "seconds": 8.0
+  },
+  {
+   "file": "New Text Document.md",
+   "truth": "study-notes",
+   "baseline": "leave",
+   "folder": "study-notes",
+   "confidence": "high",
+   "reason": "The file content is a revision sheet about the water cycle, which clearly belongs in study notes.",
+   "source": "model",
+   "seconds": 7.4
+  },
+  {
+   "file": "Untitled1.md",
+   "truth": "travel",
+   "baseline": "leave",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file is a packing list for a trip to Cusco, which clearly belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 7.2
+  },
+  {
+   "file": "Untitled1.py",
+   "truth": "code-snippets",
+   "baseline": "code-snippets",
+   "folder": "code-snippets",
+   "confidence": "high",
+   "reason": "The file is a Python script that uses the 'os' module to list files in a directory, which strongly suggests it is a piece of code or a code-",
+   "source": "model",
+   "seconds": 9.1
+  },
+  {
+   "file": "Untitled1.txt",
+   "truth": "leave",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains a list of gift ideas, which does not clearly fit into any of the provided specific categories (invoices-receipts, travel,,",
+   "source": "model",
+   "seconds": 8.2
+  },
+  {
+   "file": "aaa.eml",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The email subject and content explicitly mention a payment and an invoice, which directly corresponds to the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 9.2
+  },
+  {
+   "file": "aaa.pdf",
+   "truth": "travel",
+   "baseline": "invoices-receipts",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 8.0
+  },
+  {
+   "file": "aaa.txt",
+   "truth": "study-notes",
+   "baseline": "leave",
+   "folder": "study-notes",
+   "confidence": "high",
+   "reason": "The file contains lecture notes, a key idea, an exam tip, and a TODO item, which are all characteristic of study materials.",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "attachment.txt",
+   "truth": "work-meetings",
+   "baseline": "leave",
+   "folder": "work-meetings",
+   "confidence": "high",
+   "reason": "The file contains an agenda, attendees, and action items related to a weekly sync, which clearly falls under work-related meetings.",
+   "source": "model",
+   "seconds": 10.0
+  },
+  {
+   "file": "copy of copy.md",
+   "truth": "work-meetings",
+   "baseline": "leave",
+   "folder": "work-meetings",
+   "confidence": "high",
+   "reason": "The file contains 'Standup notes' with items like 'done', 'blocked', and 'next' tasks, which strongly suggests meeting or project status/log",
+   "source": "model",
+   "seconds": 9.6
+  },
+  {
+   "file": "copy of copy.py",
+   "truth": "code-snippets",
+   "baseline": "code-snippets",
+   "folder": "code-snippets",
+   "confidence": "high",
+   "reason": "The file 'copy of copy.py' contains Python code, specifically a script that lists files in a directory, which strongly suggests it belongs a",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "copy of copy.sh",
+   "truth": "code-snippets",
+   "baseline": "code-snippets",
+   "folder": "code-snippets",
+   "confidence": "high",
+   "reason": "The file contains a shell script (`copy of copy.sh`) which is a type of source code/script.",
+   "source": "model",
+   "seconds": 8.7
+  },
+  {
+   "file": "doc1(5).txt",
+   "truth": "travel",
+   "baseline": "leave",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file contains a hotel booking confirmation, which clearly belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 9.1
+  },
+  {
+   "file": "doc1(6).txt",
+   "truth": "recipes",
+   "baseline": "leave",
+   "folder": "recipes",
+   "confidence": "high",
+   "reason": "The file contains a recipe for 'Pesto Pasta' with ingredients and method.",
+   "source": "model",
+   "seconds": 8.0
+  },
+  {
+   "file": "doc1(9).txt",
+   "truth": "travel",
+   "baseline": "leave",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file contains a hotel booking confirmation, which clearly belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 8.3
+  },
+  {
+   "file": "doc1.txt",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with details like a card ending number, amount paid, and a date, which clearly belongs in the 'invoices-receipts",
+   "source": "model",
+   "seconds": 10.0
+  },
+  {
+   "file": "document.json",
+   "truth": "code-snippets",
+   "baseline": "leave",
+   "folder": "code-snippets",
+   "confidence": "high",
+   "reason": "The file content is a JSON object containing application metadata, including 'name', 'version', and 'scripts' which strongly suggests it is-",
+   "source": "model",
+   "seconds": 8.9
+  },
+  {
+   "file": "download.html",
+   "truth": "recipes",
+   "baseline": "leave",
+   "folder": "recipes",
+   "confidence": "high",
+   "reason": "The file contains a recipe for 'Grandma's flatbread', which clearly belongs in the 'recipes' folder.",
+   "source": "model",
+   "seconds": 8.7
+  },
+  {
+   "file": "download.py",
+   "truth": "code-snippets",
+   "baseline": "code-snippets",
+   "folder": "code-snippets",
+   "confidence": "high",
+   "reason": "The file 'download.py' contains Python code, specifically a script that lists files in a directory, which strongly suggests it belongs in a ",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "file(2).txt",
+   "truth": "study-notes",
+   "baseline": "leave",
+   "folder": "study-notes",
+   "confidence": "high",
+   "reason": "The file contains lecture notes, a key idea, an exam tip, and a to-do item related to reading a chapter, which strongly suggests study-notes",
+   "source": "model",
+   "seconds": 10.1
+  },
+  {
+   "file": "final.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content clearly indicates an invoice, with details like invoice number, date, items, subtotal, tax, and total due, which directly\u5339\u914d",
+   "source": "model",
+   "seconds": 10.1
+  },
+  {
+   "file": "final.txt",
+   "truth": "code-snippets",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains a SQL query, which is not clearly related to any of the provided specific folders (invoices-receipts, travel, recipes, etc",
+   "source": "model",
+   "seconds": 9.6
+  },
+  {
+   "file": "final_FINAL.js",
+   "truth": "code-snippets",
+   "baseline": "code-snippets",
+   "folder": "code-snippets",
+   "confidence": "high",
+   "reason": "The file contains JavaScript code (a reduction operation and module export), which strongly suggests it is a code snippet or script.",
+   "source": "model",
+   "seconds": 8.5
+  },
+  {
+   "file": "final_FINAL.md",
+   "truth": "recipes",
+   "baseline": "leave",
+   "folder": "recipes",
+   "confidence": "high",
+   "reason": "The file contains a 'Weekly meal plan' and a list of ingredients and cooking instructions, which clearly belongs in the 'recipes' folder.",
+   "source": "model",
+   "seconds": 8.9
+  },
+  {
+   "file": "final_FINAL.pdf",
+   "truth": "travel",
+   "baseline": "invoices-receipts",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 8.1
+  },
+  {
+   "file": "latest(9).txt",
+   "truth": "work-meetings",
+   "baseline": "leave",
+   "folder": "work-meetings",
+   "confidence": "high",
+   "reason": "The file contains an agenda, attendees, and action items related to a weekly sync, which clearly falls under work-related meetings.",
+   "source": "model",
+   "seconds": 9.2
+  },
+  {
+   "file": "latest.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 9.1
+  },
+  {
+   "file": "latest.txt",
+   "truth": "travel",
+   "baseline": "leave",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file contains a hotel booking confirmation, which clearly belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 8.1
+  },
+  {
+   "file": "misc.txt",
+   "truth": "recipes",
+   "baseline": "leave",
+   "folder": "recipes",
+   "confidence": "high",
+   "reason": "The file contains a recipe for Mushroom Risotto, which clearly belongs in the 'recipes' folder.",
+   "source": "model",
+   "seconds": 8.3
+  },
+  {
+   "file": "output.pdf",
+   "truth": "travel",
+   "baseline": "invoices-receipts",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 7.9
+  },
+  {
+   "file": "output.txt",
+   "truth": "study-notes",
+   "baseline": "leave",
+   "folder": "study-notes",
+   "confidence": "high",
+   "reason": "The file contains lecture notes, a key idea, an exam tip, and a to-do item related to reading material, which strongly suggests it belongs a",
+   "source": "model",
+   "seconds": 9.2
+  },
+  {
+   "file": "scan0042(1).txt",
+   "truth": "leave",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains random personal thoughts and does not clearly fit into any of the provided specific categories (invoices, travel, recipes,",
+   "source": "model",
+   "seconds": 8.0
+  },
+  {
+   "file": "scan0042.js",
+   "truth": "code-snippets",
+   "baseline": "code-snippets",
+   "folder": "code-snippets",
+   "confidence": "high",
+   "reason": "The file contains JavaScript code (using `const`, `reduce`, `console.log`, and `module.exports`), which strongly suggests it is a source or/",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "scan0042.txt",
+   "truth": "study-notes",
+   "baseline": "leave",
+   "folder": "study-notes",
+   "confidence": "high",
+   "reason": "The file contains lecture notes, a key idea, an exam tip, and a to-do item related to reading a chapter, which strongly suggests it belongs,",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "stuff(3).md",
+   "truth": "study-notes",
+   "baseline": "leave",
+   "folder": "study-notes",
+   "confidence": "high",
+   "reason": "The file content is a revision sheet for 'Newton's laws', which clearly belongs in a study or notes folder.",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "stuff(6).txt",
+   "truth": "leave",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains lyrics, which does not clearly fit into any of the provided specific categories (invoices, travel, recipes, study notes, e",
+   "source": "model",
+   "seconds": 8.6
+  },
+  {
+   "file": "stuff.md",
+   "truth": "travel",
+   "baseline": "leave",
+   "folder": "travel",
+   "confidence": "high",
+   "reason": "The file content is a packing list for a trip to Cusco, which clearly belongs in the 'travel' folder.",
+   "source": "model",
+   "seconds": 8.0
+  },
+  {
+   "file": "stuff.txt",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with details about a purchase, amount paid, and a date, which clearly belongs in the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "temp.md",
+   "truth": "study-notes",
+   "baseline": "leave",
+   "folder": "study-notes",
+   "confidence": "high",
+   "reason": "The file content is a revision sheet for a topic ('photosynthesis'), which clearly belongs in study notes.",
+   "source": "model",
+   "seconds": 8.3
+  },
+  {
+   "file": "temp.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content clearly indicates an invoice with details like invoice number, date, items, subtotal, tax, and total due, which directly\u5c5e\u4e8e'",
+   "source": "model",
+   "seconds": 10.6
+  },
+  {
+   "file": "x.eml",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The email explicitly mentions a payment and an attached invoice, which directly corresponds to the contents of the 'invoices-receipts' and '",
+   "source": "model",
+   "seconds": 10.2
+  },
+  {
+   "file": "x.md",
+   "truth": "recipes",
+   "baseline": "leave",
+   "folder": "recipes",
+   "confidence": "high",
+   "reason": "The file contains a 'Weekly meal plan' and a list of ingredients and cooking instructions, which clearly belongs in the 'recipes' folder.",
+   "source": "model",
+   "seconds": 10.0
+  },
+  {
+   "file": "x.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "x.txt",
+   "truth": "work-meetings",
+   "baseline": "leave",
+   "folder": "work-meetings",
+   "confidence": "high",
+   "reason": "The file contains an agenda, attendees, and action items related to a weekly sync, which strongly suggests work-related meeting notes.",
+   "source": "model",
+   "seconds": 9.1
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+rule: only files untouched for 7 days
+model: gemma-4-E2B-it-Q4_0
+left alone <video-1 .mp4>: touched 2.9 days ago, less than 7: you may still be using it
+left alone <video-2 .mp4>: touched 2.0 days ago, less than 7: you may still be using it
+[1/4] <installer .exe> -> installers (high, 12.8s) The file name '<name>' strongly suggests it is a software installer.
+[2/4] <photo .jpg> -> screenshots (high, 14.8s) The file name '<name>' strongly suggests it is a photograph or a screenshot, fitting the 'screenshots' folder.
+[3/4] <screenshot .png> -> screenshots (high, 11.7s) The file name explicitly starts with 'Screenshot', which strongly suggests it belongs in the 'screenshots' folder.
+[4/4] <screenshot .png> -> screenshots (high, 11.3s) The file name explicitly starts with 'Screenshot', which strongly suggests it belongs in the 'screenshots' folder.
+4 of 4 files would move; 2 left alone (touched recently). Nothing was touched. Run `sloth apply`.
+
+real	0m50.738s
+user	0m0.096s
+sys	0m0.018s

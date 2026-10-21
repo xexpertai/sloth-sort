@@ -1,0 +1,67 @@
+1 47 IMG_notes.md -> recipes high 7.4
+2 47 IMG_notes.txt -> recipes high 8.0
+3 47 New Text Document(5).md -> work-meetings high 10.1
+4 47 New Text Document.ics -> leave low 9.3
+5 47 New Text Document.md -> study-notes high 8.5
+6 47 Untitled1.md -> travel high 8.1
+7 47 Untitled1.py -> code-snippets high 9.9
+8 47 Untitled1.txt -> leave low 8.7
+9 47 aaa.eml -> invoices-receipts high 10.4
+10 47 aaa.pdf -> travel high 8.1
+11 47 aaa.txt -> study-notes high 9.4
+12 47 attachment.txt -> work-meetings high 9.2
+13 47 copy of copy.md -> work-meetings high 9.6
+14 47 copy of copy.py -> code-snippets high 9.6
+15 47 copy of copy.sh -> code-snippets high 8.3
+16 47 doc1(5).txt -> travel high 8.3
+17 47 doc1(6).txt -> recipes high 7.8
+18 47 doc1(9).txt -> travel high 8.7
+19 47 doc1.txt -> invoices-receipts high 10.0
+20 47 document.json -> code-snippets high 9.1
+21 47 download.html -> recipes high 8.8
+22 47 download.py -> code-snippets high 9.1
+23 47 file(2).txt -> study-notes high 9.8
+24 47 final.pdf -> invoices-receipts high 10.3
+25 47 final.txt -> leave low 9.6
+26 47 final_FINAL.js -> code-snippets high 8.6
+27 47 final_FINAL.md -> recipes high 8.9
+28 47 final_FINAL.pdf -> travel high 8.0
+29 47 latest(9).txt -> work-meetings high 9.0
+30 47 latest.pdf -> invoices-receipts high 9.1
+31 47 latest.txt -> travel high 8.4
+32 47 misc.txt -> recipes high 8.3
+33 47 output.pdf -> travel high 8.4
+34 47 output.txt -> study-notes high 9.7
+35 47 scan0042(1).txt -> leave low 8.0
+36 47 scan0042.js -> code-snippets high 9.9
+37 47 scan0042.txt -> study-notes high 9.5
+38 47 stuff(3).md -> study-notes high 9.1
+39 47 stuff(6).txt -> leave low 8.6
+40 47 stuff.md -> travel high 8.5
+41 47 stuff.txt -> invoices-receipts high 9.9
+42 47 temp.md -> study-notes high 8.2
+43 47 temp.pdf -> invoices-receipts high 10.5
+44 47 x.eml -> invoices-receipts high 9.9
+45 47 x.md -> recipes high 9.5
+46 47 x.pdf -> invoices-receipts high 9.4
+47 47 x.txt -> work-meetings high 9.4
+{
+ "model": "gemma-4-E2B-it-Q4_0",
+ "baseline": {
+  "files": 47,
+  "right_moves": 11,
+  "wrong_moves": 3,
+  "left_correctly": 3,
+  "left_but_should_move": 30,
+  "accuracy": 0.298
+ },
+ "sloth": {
+  "files": 47,
+  "right_moves": 42,
+  "wrong_moves": 0,
+  "left_correctly": 3,
+  "left_but_should_move": 2,
+  "accuracy": 0.957
+ },
+ "mean_seconds_per_file": 9.0
+}

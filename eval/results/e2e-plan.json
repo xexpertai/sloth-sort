@@ -1,0 +1,644 @@
+{
+ "root": "/tmp/claude-1000/-home-harsha-workspace/d81df736-c242-410f-887d-02ae0cee100e/scratchpad/res/E/Downloads",
+ "created": 1792526210.713921,
+ "rows": [
+  {
+   "file": "IMG-20260811-chat0004.gif",
+   "size": 1430,
+   "mtime": 1777526573.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file name 'IMG-20260811-chat0004.gif' is generic and does not clearly indicate its contents belong to any of the specific categories. It",
+   "source": "model",
+   "seconds": 13.5
+  },
+  {
+   "file": "Screen Shot 2026-02-14.png",
+   "size": 2014,
+   "mtime": 1781699693.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screen Shot 2026-02-14.png' strongly suggests it is a screenshot.",
+   "source": "model",
+   "seconds": 10.2
+  },
+  {
+   "file": "Screen Shot 2026-06-21.png",
+   "size": 1997,
+   "mtime": 1784274413.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screen Shot 2026-06-21.png' strongly suggests it is a screenshot.",
+   "source": "model",
+   "seconds": 10.0
+  },
+  {
+   "file": "Screenshot 2026-03-18 at 19.11.33.png",
+   "size": 2057,
+   "mtime": 1777872173.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot 2026-03-18 at 19.11.33.png' clearly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 11.4
+  },
+  {
+   "file": "Screenshot 2026-05-12 at 20.35.56.png",
+   "size": 2004,
+   "mtime": 1789657133.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot 2026-05-12 at 20.35.56.png' clearly indicates it is a screenshot.",
+   "source": "model",
+   "seconds": 11.4
+  },
+  {
+   "file": "Screenshot 2026-06-13 at 19.17.52.png",
+   "size": 2059,
+   "mtime": 1785008813.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot 2026-06-13 at 19.17.52.png' clearly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 12.1
+  },
+  {
+   "file": "Screenshot_20260113-215225.png",
+   "size": 2063,
+   "mtime": 1789639853.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260113-215225.png' clearly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 10.8
+  },
+  {
+   "file": "Screenshot_20260319-235138.png",
+   "size": 2058,
+   "mtime": 1775850413.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260319-235138.png' clearly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 10.7
+  },
+  {
+   "file": "Screenshot_20260723-154220.png",
+   "size": 2012,
+   "mtime": 1788974573.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260723-154220.png' clearly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 10.7
+  },
+  {
+   "file": "Screenshot_20260825-165623.png",
+   "size": 2038,
+   "mtime": 1786978733.912692,
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260825-165623.png' clearly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 10.6
+  },
+  {
+   "file": "Untitled1.pdf",
+   "size": 1134,
+   "mtime": 1778727533.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice with an invoice number, date, items, subtotal, tax, and total due, which clearly belongs in the 'invoices-and",
+   "source": "model",
+   "seconds": 10.6
+  },
+  {
+   "file": "archiver-setup-x64.exe",
+   "size": 2070,
+   "mtime": 1786572653.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'archiver-setup-x64.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 9.9
+  },
+  {
+   "file": "attachment.pdf",
+   "size": 1188,
+   "mtime": 1781492333.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file content, starting with 'Federated averaging with stragglers A. Example, B. Sample (fictional authors) Abstract. We study federated'",
+   "source": "model",
+   "seconds": 10.7
+  },
+  {
+   "file": "attachment.txt",
+   "size": 110,
+   "mtime": 1779220013.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with a transaction amount and mentions keeping it for warranty and tax filing, which aligns perfectly with the '",
+   "source": "model",
+   "seconds": 9.4
+  },
+  {
+   "file": "cat_laptop.png",
+   "size": 1997,
+   "mtime": 1774874093.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'cat_laptop.png' suggests an image, which aligns with the 'screenshots' folder. However, the instructions state to choose a 'v",
+   "source": "model",
+   "seconds": 10.8
+  },
+  {
+   "file": "code-editor-setup-x64-1.88.1.exe",
+   "size": 2070,
+   "mtime": 1782719213.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'code-editor-setup-x64-1.88.1.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 10.5
+  },
+  {
+   "file": "container-tool-installer.dmg",
+   "size": 2070,
+   "mtime": 1778995373.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'container-tool-installer.dmg' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 9.6
+  },
+  {
+   "file": "copy of copy(1).pdf",
+   "size": 1132,
+   "mtime": 1776489773.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "copy of copy(2).pdf",
+   "size": 1170,
+   "mtime": 1780438253.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 10.3
+  },
+  {
+   "file": "copy of copy.eml",
+   "size": 125,
+   "mtime": 1783419053.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The email subject and content explicitly mention a payment and an attached invoice, which directly corresponds to the contents of the 'invo-",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "copy of copy.pdf",
+   "size": 1133,
+   "mtime": 1783764653.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "copy of copy.txt",
+   "size": 144,
+   "mtime": 1775496173.912692,
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file contains a hotel booking confirmation, which falls under the category of travel-related documents.",
+   "source": "model",
+   "seconds": 8.5
+  },
+  {
+   "file": "document.pdf",
+   "size": 1170,
+   "mtime": 1785172973.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 9.7
+  },
+  {
+   "file": "download.eml",
+   "size": 124,
+   "mtime": 1778727533.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content explicitly mentions a payment and an attached invoice, which directly corresponds to the description of the 'invoices-and-t",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "download.pdf",
+   "size": 1132,
+   "mtime": 1780809773.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice with an invoice number, date, items, subtotal, tax, and total due, which clearly belongs in the 'invoices-and",
+   "source": "model",
+   "seconds": 10.7
+  },
+  {
+   "file": "download.txt",
+   "size": 108,
+   "mtime": 1779963053.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with details about a payment and a request to keep it for warranty and tax filing, which directly matches the 'f",
+   "source": "model",
+   "seconds": 9.8
+  },
+  {
+   "file": "final(1).pdf",
+   "size": 1108,
+   "mtime": 1776697133.912692,
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel-tickets' folder.",
+   "source": "model",
+   "seconds": 8.6
+  },
+  {
+   "file": "final(2).pdf",
+   "size": 1110,
+   "mtime": 1786745453.912692,
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel-tickets' folder.",
+   "source": "model",
+   "seconds": 8.9
+  },
+  {
+   "file": "final.pdf",
+   "size": 1134,
+   "mtime": 1791195053.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice with an invoice number, date, items, subtotal, tax, and total due, which clearly belongs in the 'invoices-and",
+   "source": "model",
+   "seconds": 10.4
+  },
+  {
+   "file": "final.txt",
+   "size": 61,
+   "mtime": 1775496173.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains a list of gift ideas, which does not clearly fit into any of the provided specific categories (invoices, travel, manuals,,",
+   "source": "model",
+   "seconds": 8.4
+  },
+  {
+   "file": "image(3).png",
+   "size": 1971,
+   "mtime": 1781665133.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file name 'image(3).png' is too generic and does not clearly indicate its contents, fitting none of the specific folder descriptions.",
+   "source": "model",
+   "seconds": 10.3
+  },
+  {
+   "file": "image(7).png",
+   "size": 2014,
+   "mtime": 1779323693.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file name 'image(7).png' is too generic and does not clearly indicate its contents, fitting none of the specific folder descriptions.",
+   "source": "model",
+   "seconds": 10.4
+  },
+  {
+   "file": "image-editor-setup-2.10.36.exe",
+   "size": 2070,
+   "mtime": 1786667693.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'image-editor-setup-2.10.36.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 10.5
+  },
+  {
+   "file": "js-runtime-v20.11.1-x64.msi",
+   "size": 2070,
+   "mtime": 1786460333.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'js-runtime-v20.11.1-x64.msi' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 10.5
+  },
+  {
+   "file": "latest.pdf",
+   "size": 1184,
+   "mtime": 1781215853.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file content starts with academic/technical language ('Sparse attention for long documents', 'Abstract', 'Introduction', 'Related work')",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "latest.txt",
+   "size": 85,
+   "mtime": 1780766573.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains lyrics, which does not clearly fit into any of the provided specific categories (invoices, travel, manuals, screenshots,,,",
+   "source": "model",
+   "seconds": 8.9
+  },
+  {
+   "file": "me_on_monday.gif",
+   "size": 1430,
+   "mtime": 1789899053.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'me_on_monday.gif' suggests it is an image, which could be a meme. However, the instructions state to choose a folder only if ",
+   "source": "model",
+   "seconds": 12.3
+  },
+  {
+   "file": "media-player-3.0.20-win64.exe",
+   "size": 2070,
+   "mtime": 1790305133.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'media-player-3.0.20-win64.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 10.4
+  },
+  {
+   "file": "monday_mood.gif",
+   "size": 1426,
+   "mtime": 1788585773.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'monday_mood.gif' suggests an image, which could be a meme or just a personal image. However, based on the strict instruction:",
+   "source": "model",
+   "seconds": 11.0
+  },
+  {
+   "file": "no_one_ever.gif",
+   "size": 1419,
+   "mtime": 1788464813.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'no_one_ever.gif' suggests it is an image, which aligns with the 'memes' folder. However, the instructions state to choose a '",
+   "source": "model",
+   "seconds": 11.4
+  },
+  {
+   "file": "notes-app_1.5.12_amd64.deb",
+   "size": 2070,
+   "mtime": 1787488493.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'notes-app_1.5.12_amd64.deb' strongly suggests it is a software installer package (a Debian package format).",
+   "source": "model",
+   "seconds": 10.7
+  },
+  {
+   "file": "output.pdf",
+   "size": 1184,
+   "mtime": 1776541613.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a survey of quantisation methods with an abstract, introduction, and related work, which strongly suggests it is a pieceof",
+   "source": "model",
+   "seconds": 9.9
+  },
+  {
+   "file": "received_88231.jpg",
+   "size": 2609,
+   "mtime": 1782987053.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'received_88231.jpg' is generic and does not clearly indicate its contents. However, since the file extension is '.jpg', it is",
+   "source": "model",
+   "seconds": 11.7
+  },
+  {
+   "file": "scripting-runtime-3.12.2-amd64.exe",
+   "size": 2070,
+   "mtime": 1778641133.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'scripting-runtime-3.12.2-amd64.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 11.7
+  },
+  {
+   "file": "social_IMG_1698452.png",
+   "size": 2013,
+   "mtime": 1786296173.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file name 'social_IMG_1698452.png' is vague and does not clearly indicate its contents, fitting the criteria for the 'leave' folder.",
+   "source": "model",
+   "seconds": 11.7
+  },
+  {
+   "file": "temp(1).pdf",
+   "size": 1188,
+   "mtime": 1785959213.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file content appears to be an academic or technical document, starting with 'Learning rate warm-up revisited' and mentioning 'Abstract's",
+   "source": "model",
+   "seconds": 9.8
+  },
+  {
+   "file": "temp.pdf",
+   "size": 1170,
+   "mtime": 1791333293.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 9.6
+  },
+  {
+   "file": "this_is_fine_remix.jpg",
+   "size": 2463,
+   "mtime": 1780325933.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'this_is_fine_remix.jpg' suggests an image, which aligns with the 'screenshots' folder. However, the instructions state to 'Go",
+   "source": "model",
+   "seconds": 11.0
+  },
+  {
+   "file": "two_panel_but_make_it_tea.png",
+   "size": 2027,
+   "mtime": 1775141933.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'two_panel_but_make_it_tea.png' suggests an image, and 'memes' is the only folder related to images that could potentially fit",
+   "source": "model",
+   "seconds": 11.4
+  },
+  {
+   "file": "untitled(1).pdf",
+   "size": 1111,
+   "mtime": 1777336493.912692,
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel-tickets' folder.",
+   "source": "model",
+   "seconds": 9.1
+  },
+  {
+   "file": "untitled.pdf",
+   "size": 1132,
+   "mtime": 1775167853.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 10.3
+  },
+  {
+   "file": "untitled.txt",
+   "size": 144,
+   "mtime": 1785976493.912692,
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file contains a hotel booking confirmation, which falls under the category of travel-related documents.",
+   "source": "model",
+   "seconds": 8.6
+  },
+  {
+   "file": "video-meeting_amd64.deb",
+   "size": 2070,
+   "mtime": 1789484333.912692,
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'video-meeting_amd64.deb' strongly suggests a software package or installer (indicated by the '.deb' extension), which aligns,",
+   "source": "model",
+   "seconds": 10.7
+  },
+  {
+   "file": "web-browser-125.0.tar.bz2",
+   "size": 2070,
+   "mtime": 1788853613.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file name 'web-browser-125.0.tar.bz2' suggests it is a compressed archive of a web browser, but the file name itself does not clearly or",
+   "source": "model",
+   "seconds": 11.4
+  },
+  {
+   "file": "when_the_build_passes.jpg",
+   "size": 2416,
+   "mtime": 1784939693.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "low confidence, left alone: The file name 'when_the_build_passes.jpg' suggests it might be a screenshot related to a build process, which aligns with the 'screenshots'.",
+   "source": "model",
+   "seconds": 10.4
+  },
+  {
+   "file": "x(1).txt",
+   "size": 66,
+   "mtime": 1785656813.912692,
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains random personal thoughts and suggestions, which does not clearly fit into any of the provided specific categories.",
+   "source": "model",
+   "seconds": 7.6
+  },
+  {
+   "file": "x.pdf",
+   "size": 1169,
+   "mtime": 1791704813.912692,
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 10.2
+  },
+  {
+   "file": "x.txt",
+   "size": 107,
+   "mtime": 1789501613.912692,
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with a transaction amount and mentions keeping it for warranty and tax filing, which aligns perfectly with the '",
+   "source": "model",
+   "seconds": 9.2
+  }
+ ],
+ "skipped": [
+  [
+   "Kelvin router KR-300 manual.pdf",
+   "touched 1.5 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "Screenshot 2026-10-17 at 10.58.57.png",
+   "touched 4.7 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "Screenshot 2026-10-17 at 9.41.30.png",
+   "touched 2.7 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "Screenshot 2026-10-18 at 15.17.43.png",
+   "touched 0.6 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "boarding-pass-this-week.pdf",
+   "touched 1.6 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "copy of copy(3).pdf",
+   "touched 1.3 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "copy of copy(4).pdf",
+   "touched 0.8 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "disk-flasher-1.18.12.AppImage",
+   "touched 2.0 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "latest(1).pdf",
+   "touched 2.2 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "local-llm-runner-linux-amd64.deb",
+   "touched 0.4 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "monday_mood_NEW.jpg",
+   "touched 0.7 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "paper-to-read-tonight.pdf",
+   "touched 1.2 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "tax-statement-draft.pdf",
+   "touched 3.0 days ago, less than 7: you may still be using it"
+  ],
+  [
+   "this_is_fine_remix_2.png",
+   "touched 0.5 days ago, less than 7: you may still be using it"
+  ]
+ ]
+}

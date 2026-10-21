@@ -1,0 +1,467 @@
+[
+ [
+  0.0,
+  "cmd",
+  "ls Downloads"
+ ],
+ [
+  0.0,
+  "out",
+  "IMG_notes.md"
+ ],
+ [
+  0.0,
+  "out",
+  "IMG_notes.txt"
+ ],
+ [
+  0.0,
+  "out",
+  "New Text Document.md"
+ ],
+ [
+  0.0,
+  "out",
+  "Untitled1.md"
+ ],
+ [
+  0.0,
+  "out",
+  "Untitled1.py"
+ ],
+ [
+  0.0,
+  "out",
+  "Untitled1.txt"
+ ],
+ [
+  0.0,
+  "out",
+  "aaa.eml"
+ ],
+ [
+  0.0,
+  "out",
+  "aaa.pdf"
+ ],
+ [
+  0.0,
+  "out",
+  "aaa.txt"
+ ],
+ [
+  0.0,
+  "out",
+  "copy of copy.md"
+ ],
+ [
+  0.0,
+  "out",
+  "copy of copy.py"
+ ],
+ [
+  0.0,
+  "out",
+  "doc1.txt"
+ ],
+ [
+  0.0,
+  "cmd",
+  "/home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/.venv/bin/sloth plan Downloads --config /home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/eval/demo.toml --nice 19"
+ ],
+ [
+  0.07,
+  "out",
+  "model: gemma-4-E2B-it-Q4_0"
+ ],
+ [
+  7.34,
+  "out",
+  "[1/12] IMG_notes.md -> recipes (high, 7.3s) The file contains a 'Weekly meal plan' and specific cooking instructions, which clearly belongs in the 'recipes' folder."
+ ],
+ [
+  15.17,
+  "out",
+  "[2/12] IMG_notes.txt -> recipes (high, 7.8s) The file contains a recipe for 'Pesto Pasta' with ingredients and method."
+ ],
+ [
+  23.46,
+  "out",
+  "[3/12] New Text Document.md -> study-notes (high, 8.3s) The file content is a revision sheet about the water cycle, which clearly belongs in study notes."
+ ],
+ [
+  32.08,
+  "out",
+  "[4/12] Untitled1.md -> travel (high, 8.6s) The file is a packing list for a trip to Cusco, which clearly belongs in the 'travel' folder."
+ ],
+ [
+  41.68,
+  "out",
+  "[5/12] Untitled1.py -> code-snippets (high, 9.6s) The file is a Python script that uses the 'os' module to list files in a directory, which strongly suggests it is a piece of code or a code-"
+ ],
+ [
+  50.35,
+  "out",
+  "[6/12] Untitled1.txt -> leave (low, 8.7s) The file contains a list of gift ideas, which does not clearly fit into any of the provided specific categories (invoices-receipts, travel,,"
+ ],
+ [
+  59.95,
+  "out",
+  "[7/12] aaa.eml -> invoices-receipts (high, 9.6s) The email subject and content explicitly mention a payment and an invoice, which directly corresponds to the 'invoices-receipts' folder."
+ ],
+ [
+  68.32,
+  "out",
+  "[8/12] aaa.pdf -> travel (high, 8.2s) The file content clearly indicates a boarding pass, which belongs in the 'travel' folder."
+ ],
+ [
+  77.13,
+  "out",
+  "[9/12] aaa.txt -> study-notes (high, 8.8s) The file contains lecture notes, a key idea, an exam tip, and a TODO item, which are all characteristic of study materials."
+ ],
+ [
+  87.06,
+  "out",
+  "[10/12] copy of copy.md -> work-meetings (high, 9.9s) The file contains 'Standup notes' with items like 'done', 'blocked', and 'next' tasks, which strongly suggests meeting or project status/log"
+ ],
+ [
+  96.3,
+  "out",
+  "[11/12] copy of copy.py -> code-snippets (high, 9.2s) The file 'copy of copy.py' contains Python code, specifically a script that lists files in a directory, which strongly suggests it belongs a"
+ ],
+ [
+  105.98,
+  "out",
+  "[12/12] doc1.txt -> invoices-receipts (high, 9.7s) The file contains a receipt with details like a card ending number, amount paid, and a date, which clearly belongs in the 'invoices-receipts"
+ ],
+ [
+  105.98,
+  "out",
+  "11 of 12 files would move; 0 skipped. Nothing was touched. Run `sloth apply`."
+ ],
+ [
+  106.02,
+  "cmd",
+  "/home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/.venv/bin/sloth apply Downloads --config /home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/eval/demo.toml"
+ ],
+ [
+  106.11,
+  "out",
+  "moved IMG_notes.md -> recipes/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved IMG_notes.txt -> recipes/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved New Text Document.md -> study-notes/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved Untitled1.md -> travel/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved Untitled1.py -> code-snippets/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved aaa.eml -> invoices-receipts/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved aaa.pdf -> travel/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved aaa.txt -> study-notes/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved copy of copy.md -> work-meetings/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved copy of copy.py -> code-snippets/"
+ ],
+ [
+  106.11,
+  "out",
+  "moved doc1.txt -> invoices-receipts/"
+ ],
+ [
+  106.11,
+  "out",
+  "{'moved': 11, 'refused': 0}"
+ ],
+ [
+  106.12,
+  "cmd",
+  "ls -R Downloads | grep -v '^$'"
+ ],
+ [
+  106.13,
+  "out",
+  "Downloads:"
+ ],
+ [
+  106.13,
+  "out",
+  "Untitled1.txt"
+ ],
+ [
+  106.13,
+  "out",
+  "code-snippets"
+ ],
+ [
+  106.13,
+  "out",
+  "invoices-receipts"
+ ],
+ [
+  106.13,
+  "out",
+  "recipes"
+ ],
+ [
+  106.13,
+  "out",
+  "study-notes"
+ ],
+ [
+  106.13,
+  "out",
+  "travel"
+ ],
+ [
+  106.13,
+  "out",
+  "work-meetings"
+ ],
+ [
+  106.13,
+  "out",
+  "Downloads/code-snippets:"
+ ],
+ [
+  106.13,
+  "out",
+  "Untitled1.py"
+ ],
+ [
+  106.13,
+  "out",
+  "copy of copy.py"
+ ],
+ [
+  106.13,
+  "out",
+  "Downloads/invoices-receipts:"
+ ],
+ [
+  106.13,
+  "out",
+  "aaa.eml"
+ ],
+ [
+  106.13,
+  "out",
+  "doc1.txt"
+ ],
+ [
+  106.13,
+  "out",
+  "Downloads/recipes:"
+ ],
+ [
+  106.13,
+  "out",
+  "IMG_notes.md"
+ ],
+ [
+  106.13,
+  "out",
+  "IMG_notes.txt"
+ ],
+ [
+  106.13,
+  "out",
+  "Downloads/study-notes:"
+ ],
+ [
+  106.13,
+  "out",
+  "New Text Document.md"
+ ],
+ [
+  106.13,
+  "out",
+  "aaa.txt"
+ ],
+ [
+  106.13,
+  "out",
+  "Downloads/travel:"
+ ],
+ [
+  106.13,
+  "out",
+  "Untitled1.md"
+ ],
+ [
+  106.13,
+  "out",
+  "aaa.pdf"
+ ],
+ [
+  106.13,
+  "out",
+  "Downloads/work-meetings:"
+ ],
+ [
+  106.13,
+  "out",
+  "copy of copy.md"
+ ],
+ [
+  106.13,
+  "cmd",
+  "/home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/.venv/bin/sloth undo Downloads"
+ ],
+ [
+  106.2,
+  "out",
+  "restored doc1.txt"
+ ],
+ [
+  106.2,
+  "out",
+  "restored copy of copy.py"
+ ],
+ [
+  106.2,
+  "out",
+  "restored copy of copy.md"
+ ],
+ [
+  106.2,
+  "out",
+  "restored aaa.txt"
+ ],
+ [
+  106.2,
+  "out",
+  "restored aaa.pdf"
+ ],
+ [
+  106.2,
+  "out",
+  "restored aaa.eml"
+ ],
+ [
+  106.2,
+  "out",
+  "restored Untitled1.py"
+ ],
+ [
+  106.2,
+  "out",
+  "restored Untitled1.md"
+ ],
+ [
+  106.2,
+  "out",
+  "restored New Text Document.md"
+ ],
+ [
+  106.2,
+  "out",
+  "restored IMG_notes.txt"
+ ],
+ [
+  106.2,
+  "out",
+  "restored IMG_notes.md"
+ ],
+ [
+  106.2,
+  "out",
+  "{'restored': 11, 'refused': 0}"
+ ],
+ [
+  106.21,
+  "cmd",
+  "ls Downloads"
+ ],
+ [
+  106.22,
+  "out",
+  "IMG_notes.md"
+ ],
+ [
+  106.22,
+  "out",
+  "IMG_notes.txt"
+ ],
+ [
+  106.22,
+  "out",
+  "New Text Document.md"
+ ],
+ [
+  106.22,
+  "out",
+  "Untitled1.md"
+ ],
+ [
+  106.22,
+  "out",
+  "Untitled1.py"
+ ],
+ [
+  106.22,
+  "out",
+  "Untitled1.txt"
+ ],
+ [
+  106.22,
+  "out",
+  "aaa.eml"
+ ],
+ [
+  106.22,
+  "out",
+  "aaa.pdf"
+ ],
+ [
+  106.22,
+  "out",
+  "aaa.txt"
+ ],
+ [
+  106.22,
+  "out",
+  "copy of copy.md"
+ ],
+ [
+  106.22,
+  "out",
+  "copy of copy.py"
+ ],
+ [
+  106.22,
+  "out",
+  "doc1.txt"
+ ]
+]

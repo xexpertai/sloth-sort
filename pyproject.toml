@@ -1,0 +1,16 @@
+[project]
+name = "sloth-sort"
+version = "0.1.0"
+description = "A deliberately slow, undoable folder tidier that runs a small open-weight model on your own CPU."
+requires-python = ">=3.11"
+dependencies = []
+[project.optional-dependencies]
+pdf = ["pypdf>=4"]
+dev = ["pytest>=8", "pypdf>=4", "fpdf2>=2.8", "pillow>=10"]
+[project.scripts]
+sloth = "sloth_sort.cli:main"
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+packages = ["sloth_sort"]

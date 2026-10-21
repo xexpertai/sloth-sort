@@ -1,0 +1,89 @@
+1 58 IMG-20260811-chat0004.gif -> leave low 13.8
+2 58 Screen Shot 2026-02-14.png -> screenshots high 11.9
+3 58 Screen Shot 2026-06-21.png -> screenshots high 11.4
+4 58 Screenshot 2026-03-18 at 19.11.33.png -> screenshots high 11.7
+5 58 Screenshot 2026-05-12 at 20.35.56.png -> screenshots high 11.4
+6 58 Screenshot 2026-06-13 at 19.17.52.png -> screenshots high 11.8
+7 58 Screenshot_20260113-215225.png -> screenshots high 11.6
+8 58 Screenshot_20260319-235138.png -> screenshots high 11.5
+9 58 Screenshot_20260723-154220.png -> screenshots high 11.7
+10 58 Screenshot_20260825-165623.png -> screenshots high 12.1
+11 58 Untitled1.pdf -> invoices-receipts high 12.4
+12 58 archiver-setup-x64.exe -> installers high 11.3
+13 58 attachment.pdf -> manuals-and-papers high 11.4
+14 58 attachment.txt -> invoices-receipts high 10.6
+15 58 cat_laptop.png -> leave low 12.3
+16 58 code-editor-setup-x64-1.88.1.exe -> installers high 11.7
+17 58 container-tool-installer.dmg -> installers high 10.9
+18 58 copy of copy(1).pdf -> invoices-receipts high 11.2
+19 58 copy of copy(2).pdf -> manuals-and-papers high 11.1
+20 58 copy of copy.eml -> invoices-receipts high 10.2
+21 58 copy of copy.pdf -> invoices-receipts high 10.7
+22 58 copy of copy.txt -> travel-tickets high 10.5
+23 58 document.pdf -> manuals-and-papers high 12.4
+24 58 download.eml -> invoices-receipts high 10.8
+25 58 download.pdf -> invoices-receipts high 11.7
+26 58 download.txt -> invoices-receipts high 10.3
+27 58 final(1).pdf -> travel-tickets high 9.5
+28 58 final(2).pdf -> travel-tickets high 9.5
+29 58 final.pdf -> invoices-receipts high 11.7
+30 58 final.txt -> leave low 10.0
+31 58 image(3).png -> leave low 11.4
+32 58 image(7).png -> leave low 11.0
+33 58 image-editor-setup-2.10.36.exe -> installers high 10.9
+34 58 js-runtime-v20.11.1-x64.msi -> installers high 11.8
+35 58 latest.pdf -> manuals-and-papers high 11.0
+36 58 latest.txt -> leave low 9.9
+37 58 me_on_monday.gif -> leave low 13.6
+38 58 media-player-3.0.20-win64.exe -> installers high 11.2
+39 58 monday_mood.gif -> leave low 11.5
+40 58 no_one_ever.gif -> leave low 12.4
+41 58 notes-app_1.5.12_amd64.deb -> installers high 12.6
+42 58 output.pdf -> manuals-and-papers high 10.7
+43 58 received_88231.jpg -> leave low 11.7
+44 58 scripting-runtime-3.12.2-amd64.exe -> installers high 11.4
+45 58 social_IMG_1698452.png -> leave low 12.4
+46 58 temp(1).pdf -> manuals-and-papers high 10.9
+47 58 temp.pdf -> manuals-and-papers high 11.0
+48 58 this_is_fine_remix.jpg -> leave low 12.4
+49 58 two_panel_but_make_it_tea.png -> leave low 13.2
+50 58 untitled(1).pdf -> travel-tickets high 11.6
+51 58 untitled.pdf -> invoices-receipts high 10.4
+52 58 untitled.txt -> travel-tickets high 9.6
+53 58 video-meeting_amd64.deb -> installers high 12.0
+54 58 web-browser-125.0.tar.bz2 -> leave low 12.2
+55 58 when_the_build_passes.jpg -> leave low 12.7
+56 58 x(1).txt -> leave low 8.4
+57 58 x.pdf -> manuals-and-papers high 10.8
+58 58 x.txt -> invoices-receipts high 10.3
+{
+ "model": "gemma-4-E2B-it-Q4_0",
+ "ignored_for_days": 7.0,
+ "total_files": 72,
+ "eligible_files": 58,
+ "active_files_left_alone": 14,
+ "baseline_on_eligible": {
+  "files": 58,
+  "right_moves": 31,
+  "wrong_moves": 16,
+  "left_correctly": 3,
+  "left_but_should_move": 8,
+  "accuracy": 0.586
+ },
+ "sloth_on_eligible": {
+  "files": 58,
+  "right_moves": 42,
+  "wrong_moves": 0,
+  "left_correctly": 3,
+  "left_but_should_move": 13,
+  "accuracy": 0.776
+ },
+ "active_files_disturbed": {
+  "baseline": 14,
+  "sloth": 0,
+  "of": 14
+ },
+ "total_model_seconds": 658.1,
+ "wall_seconds": 658.2,
+ "mean_seconds_per_file": 11.3
+}

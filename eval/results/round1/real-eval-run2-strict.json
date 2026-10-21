@@ -1,0 +1,293 @@
+{
+ "model": "gemma-4-E2B-it-Q4_0",
+ "baseline": {
+  "files": 27,
+  "right_moves": 2,
+  "wrong_moves": 0,
+  "left_correctly": 0,
+  "left_but_should_move": 25,
+  "accuracy": 0.074
+ },
+ "sloth": {
+  "files": 27,
+  "right_moves": 24,
+  "wrong_moves": 0,
+  "left_correctly": 0,
+  "left_but_should_move": 3,
+  "accuracy": 0.889
+ },
+ "total_model_seconds": 179.3,
+ "mean_seconds_per_file": 6.6,
+ "rows": [
+  {
+   "file": "JUDGE-W2-R1.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is explicitly titled 'JUDGE-W2-R1.md' and contains a detailed review, scores, and critiques of a post, repository, and video, which",
+   "source": "model",
+   "seconds": 6.8
+  },
+  {
+   "file": "JUDGE-W2-R2.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is a judge's report ('JUDGE-W2-R2.md') detailing scores and feedback for a simulation, which directly matches the description of 'j",
+   "source": "model",
+   "seconds": 6.9
+  },
+  {
+   "file": "JUDGE-W2-R3.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is a judge's report ('Judge simulation R3') detailing scores and criteria used to evaluate a submission ('post draft week2-post.md'",
+   "source": "model",
+   "seconds": 6.5
+  },
+  {
+   "file": "JUDGE-W2-R4.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is explicitly a 'Judge simulation R4 (\"Verdict\")' and contains scores and criteria evaluations, which directly matches the purpose/",
+   "source": "model",
+   "seconds": 6.8
+  },
+  {
+   "file": "JUDGE-W2-R5.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is explicitly a 'Judge simulation R5 (\"Verdict\")' and details the judging process, including scores and checks against various post",
+   "source": "model",
+   "seconds": 6.6
+  },
+  {
+   "file": "JUDGE-W2-V6-CALIBRATED.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is a judge's report, containing scoring criteria, a scoring formula, and a set of items judged, which clearly falls under the 'judg",
+   "source": "model",
+   "seconds": 7.1
+  },
+  {
+   "file": "JUDGE-W2-V8-CALIBRATED.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is a judge's report detailing the results of a judging process, including scores, verdicts, and rubric references, which directly '",
+   "source": "model",
+   "seconds": 6.7
+  },
+  {
+   "file": "JUDGE-W2-V9-CALIBRATED.md",
+   "truth": "judge-reports",
+   "baseline": "leave",
+   "folder": "judge-reports",
+   "confidence": "high",
+   "reason": "The file is a judge's report ('JUDGE-W2-V9-CALIBRATED.md') detailing a judging process, scores, and verdict against specific criteria, which",
+   "source": "model",
+   "seconds": 7.5
+  },
+  {
+   "file": "PLAN.md",
+   "truth": "plans-and-decisions",
+   "baseline": "leave",
+   "folder": "plans-and-decisions",
+   "confidence": "high",
+   "reason": "The file is titled 'PLAN.md' and contains a detailed plan for an open-source AI challenge, including sources, rules, and timelines, which is",
+   "source": "model",
+   "seconds": 7.7
+  },
+  {
+   "file": "SUBMIT-STEPS-WEEK2-v5.md",
+   "truth": "submit-steps",
+   "baseline": "leave",
+   "folder": "submit-steps",
+   "confidence": "high",
+   "reason": "The file is explicitly titled 'SUBMIT-STEPS-WEEK2-v5.md' and contains a step-by-step checklist and instructions for posting something by-by-",
+   "source": "model",
+   "seconds": 7.8
+  },
+  {
+   "file": "SUBMIT-STEPS-WEEK2.md",
+   "truth": "submit-steps",
+   "baseline": "leave",
+   "folder": "submit-steps",
+   "confidence": "high",
+   "reason": "The file is explicitly titled 'SUBMIT-STEPS-WEEK2.md' and contains a step-by-step checklist and instructions for submitting an entry, which,",
+   "source": "model",
+   "seconds": 7.1
+  },
+  {
+   "file": "WEEK2-DECISION.md",
+   "truth": "plans-and-decisions",
+   "baseline": "leave",
+   "folder": "plans-and-decisions",
+   "confidence": "high",
+   "reason": "The file is a decision record detailing a strategic decision ('BUILD tidy-predict as a \"weekly restock note\" side hustle') including themes,",
+   "source": "model",
+   "seconds": 6.9
+  },
+  {
+   "file": "WINNER-PLAN-W2.md",
+   "truth": "plans-and-decisions",
+   "baseline": "leave",
+   "folder": "plans-and-decisions",
+   "confidence": "high",
+   "reason": "The file 'WINNER-PLAN-W2.md' contains a detailed plan, gap analysis, and strategy notes related to a project ('tidy-predict') and a specific",
+   "source": "model",
+   "seconds": 7.8
+  },
+  {
+   "file": "judge-w2-v8-verdict.json",
+   "truth": "machine-output",
+   "baseline": "machine-output",
+   "folder": "machine-output",
+   "confidence": "high",
+   "reason": "rule: .json always goes to machine-output",
+   "source": "rule",
+   "seconds": 0.0
+  },
+  {
+   "file": "judge-w2-v9-verdict.json",
+   "truth": "machine-output",
+   "baseline": "machine-output",
+   "folder": "machine-output",
+   "confidence": "high",
+   "reason": "rule: .json always goes to machine-output",
+   "source": "rule",
+   "seconds": 0.0
+  },
+  {
+   "file": "week2-draft.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a draft of a blog post, indicated by the content structure (title, tags, introduction, and body text) and the explicit warning '",
+   "source": "model",
+   "seconds": 7.4
+  },
+  {
+   "file": "week2-post-final.bak",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "high",
+   "reason": "machine-output only takes its own extensions, left alone: The file contains structured data (title, published status, tags) and describes a tool ('tidy-predict') that processes data to produce an 'e",
+   "source": "model",
+   "seconds": 7.0
+  },
+  {
+   "file": "week2-post-final.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "high",
+   "reason": "machine-output only takes its own extensions, left alone: The file appears to be a submission or a report detailing a project ('tidy-predict') that processes data (a shop's order export) and outputs",
+   "source": "model",
+   "seconds": 7.1
+  },
+  {
+   "file": "week2-post-v5.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a markdown file with a title, tags, and a substantial body of text that appears to be a draft of a blog post, indicated by the '",
+   "source": "model",
+   "seconds": 7.6
+  },
+  {
+   "file": "week2-post-v6.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a markdown file with a title, tags, and a substantial body of text that appears to be a draft of a blog post or submission, as a",
+   "source": "model",
+   "seconds": 7.2
+  },
+  {
+   "file": "week2-post-v7.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "high",
+   "reason": "machine-output only takes its own extensions, left alone: The file appears to be a submission or a note related to a project involving a tool ('tidy-predict') that processes data (a shop's messy/fuz",
+   "source": "model",
+   "seconds": 7.7
+  },
+  {
+   "file": "week2-post-v8.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a markdown file (`.md`) containing a title, tags, and a narrative description of a project ('The rabbit night light sold 4,452. ",
+   "source": "model",
+   "seconds": 7.4
+  },
+  {
+   "file": "week2-post-v9-BODY.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a markdown file (`.md`) containing a draft or version of a blog post, indicated by the title structure and the content which is\u53d9",
+   "source": "model",
+   "seconds": 6.8
+  },
+  {
+   "file": "week2-post-v9-FINAL.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a markdown file with a title, tags, and a narrative describing a project built for a challenge, which strongly suggests it is a ",
+   "source": "model",
+   "seconds": 6.8
+  },
+  {
+   "file": "week2-post-v9.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a markdown file (`.md`) containing a title, tags, and a substantial body of text that appears to be a draft or submission for a ",
+   "source": "model",
+   "seconds": 7.2
+  },
+  {
+   "file": "week2-post.md",
+   "truth": "post-drafts",
+   "baseline": "leave",
+   "folder": "post-drafts",
+   "confidence": "high",
+   "reason": "The file is a draft of a blog post ('week2-post.md') with explicit instructions for rewriting, placeholders for content, and a title/tags, a",
+   "source": "model",
+   "seconds": 7.5
+  },
+  {
+   "file": "youtube-v8.md",
+   "truth": "video-upload-text",
+   "baseline": "leave",
+   "folder": "video-upload-text",
+   "confidence": "high",
+   "reason": "The file 'youtube-v8.md' contains a title and a description explicitly for a YouTube video, including details about the video itself (file, ",
+   "source": "model",
+   "seconds": 7.4
+  }
+ ]
+}

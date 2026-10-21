@@ -1,0 +1,89 @@
+{
+ "run": "copy of the real Downloads folder, 7 files, 20 Oct 2026",
+ "names": "hashed (salted, salt discarded)",
+ "settings": {
+  "ignored_for": "7d",
+  "config": "eval/downloads.toml",
+  "model": "gemma-4-E2B-it-Q4_0",
+  "nice": 19
+ },
+ "timings_s": {
+  "plan": 50.7,
+  "apply": 0.12,
+  "undo": 0.11
+ },
+ "undo": "4 of 4 restored; SHA-256 of all 7 files identical before and after",
+ "ground_truth": "NONE - Harsha to confirm",
+ "files": [
+  {
+   "id": "9accb0a89d2e",
+   "ext": ".mp4",
+   "size_bytes": 42064525,
+   "days_since_touched": 2.9,
+   "decision": "left alone",
+   "folder": "",
+   "reason": "touched 2.9 days ago, under the 7-day rule",
+   "content_sha256": "ce6d9f9b49acd00ff0b583ed1bea5d87234018c84042894cd451d449a878e4bc"
+  },
+  {
+   "id": "b3012c3ce237",
+   "ext": ".exe",
+   "size_bytes": 13288376,
+   "days_since_touched": 8.5,
+   "decision": "moved (then undone)",
+   "folder": "installers",
+   "reason": "older than 7 days; model confidence high",
+   "content_sha256": "32eb5a58d844018f8e3739ca43ca0aee791d906b69184c8a7ca846ee619317f7"
+  },
+  {
+   "id": "bfd06bd698bc",
+   "ext": ".jpg",
+   "size_bytes": 64275,
+   "days_since_touched": 8.7,
+   "decision": "moved (then undone)",
+   "folder": "screenshots",
+   "reason": "older than 7 days; model confidence high",
+   "content_sha256": "93eef2cf1221367472c2c2f96cbb39de42a97e19e2c9d951e4a43423ec01f117"
+  },
+  {
+   "id": "0a8f418aa0bf",
+   "ext": ".png",
+   "size_bytes": 1499044,
+   "days_since_touched": 9.1,
+   "decision": "moved (then undone)",
+   "folder": "screenshots",
+   "reason": "older than 7 days; model confidence high",
+   "content_sha256": "68a825d42c473cb8db549cb4dda3e0bffdbce6b312976f9b5e87797187769d99"
+  },
+  {
+   "id": "878492a6b390",
+   "ext": ".png",
+   "size_bytes": 1527784,
+   "days_since_touched": 8.9,
+   "decision": "moved (then undone)",
+   "folder": "screenshots",
+   "reason": "older than 7 days; model confidence high",
+   "content_sha256": "d8b5fcc1af9bcec81b31921f3f3d3a925a463e45af800eb956055c706486b484"
+  },
+  {
+   "id": "620dc2498771",
+   "ext": ".ini",
+   "size_bytes": 282,
+   "days_since_touched": 0.0,
+   "decision": "left alone",
+   "folder": "",
+   "reason": "sloth never touches desktop.ini",
+   "content_sha256": "b029393ea7b7cf644fb1c9f984f57c1980077562ee2e15d0ffd049c4c48098d3"
+  },
+  {
+   "id": "141f63fc5d88",
+   "ext": ".mp4",
+   "size_bytes": 10861435,
+   "days_since_touched": 2.0,
+   "decision": "left alone",
+   "folder": "",
+   "reason": "touched 2.0 days ago, under the 7-day rule",
+   "content_sha256": "48cca110076f077ae410c9593cf3be8a52a6f70afaaeb408217dd6b218c429be"
+  }
+ ]
+}

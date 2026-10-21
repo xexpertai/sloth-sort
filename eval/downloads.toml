@@ -1,0 +1,26 @@
+# Config for the fictional Downloads folder made by eval/make_downloads_folder.py
+[settings]
+snippet_chars = 1200
+ignored_for = "7d"          # the rule: only files neither opened nor modified for 7 days
+
+[folders.invoices-receipts]
+desc = "Bills, invoices, receipts, payment confirmations and tax paperwork"
+ext = [".pdf"]              # the no-model baseline: "a PDF is probably a bill"
+
+[folders.travel-tickets]
+desc = "Boarding passes, tickets, hotel bookings and itineraries"
+
+[folders.manuals-and-papers]
+desc = "Product manuals, user guides, research papers and reading material"
+
+[folders.screenshots]
+desc = "Screenshots of a screen or window"
+ext = [".png"]              # baseline: every png is a screenshot
+
+[folders.installers]
+desc = "Software installers and setup packages"
+ext = [".exe", ".msi", ".dmg", ".deb", ".appimage"]
+
+[folders.memes]
+desc = "Memes, funny pictures and forwarded images"
+ext = [".jpg", ".jpeg", ".gif"]   # baseline: jpg and gif are memes

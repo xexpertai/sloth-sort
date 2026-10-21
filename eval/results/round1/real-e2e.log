@@ -1,0 +1,138 @@
+2026-10-20T06:43:07+05:30
+$ sloth plan files --pace 0 --nice 19
+model: gemma-4-E2B-it-Q4_0
+[1/27] JUDGE-W2-R1.md -> judge-reports (high, 7.9s) The file is explicitly titled 'JUDGE-W2-R1.md' and contains a detailed review, scores, and critiques of a post, repository, and video, which
+[2/27] JUDGE-W2-R2.md -> judge-reports (high, 7.5s) The file is a judge's report ('JUDGE-W2-R2.md') detailing scores and feedback for a simulation, which directly matches the description of 'j
+[3/27] JUDGE-W2-R3.md -> judge-reports (high, 6.3s) The file is a judge's report ('Judge simulation R3') detailing scores and criteria used to evaluate a submission ('post draft week2-post.md'
+[4/27] JUDGE-W2-R4.md -> judge-reports (high, 6.0s) The file is explicitly a 'Judge simulation R4 ("Verdict")' and contains scores and criteria evaluations, which directly matches the purpose/
+[5/27] JUDGE-W2-R5.md -> judge-reports (high, 6.1s) The file is explicitly a 'Judge simulation R5 ("Verdict")' and details the judging process, including scores and checks against various post
+[6/27] JUDGE-W2-V6-CALIBRATED.md -> judge-reports (high, 6.7s) The file is a judge's report, containing scoring criteria, a scoring formula, and a set of items judged, which clearly falls under the 'judg
+[7/27] JUDGE-W2-V8-CALIBRATED.md -> judge-reports (high, 6.7s) The file is a judge's report detailing the results of a judging process, including scores, verdicts, and rubric references, which directly '
+[8/27] JUDGE-W2-V9-CALIBRATED.md -> judge-reports (high, 7.0s) The file is a judge's report ('JUDGE-W2-V9-CALIBRATED.md') detailing a judging process, scores, and verdict against specific criteria, which
+[9/27] PLAN.md -> plans-and-decisions (high, 6.8s) The file is titled 'PLAN.md' and contains a detailed plan for an open-source AI challenge, including sources, rules, and timelines, which is
+[10/27] SUBMIT-STEPS-WEEK2-v5.md -> submit-steps (high, 7.5s) The file is explicitly titled 'SUBMIT-STEPS-WEEK2-v5.md' and contains a step-by-step checklist and instructions for posting something by-by-
+[11/27] SUBMIT-STEPS-WEEK2.md -> submit-steps (high, 7.1s) The file is explicitly titled 'SUBMIT-STEPS-WEEK2.md' and contains a step-by-step checklist and instructions for submitting an entry, which,
+[12/27] WEEK2-DECISION.md -> plans-and-decisions (high, 6.6s) The file is a decision record detailing a strategic decision ('BUILD tidy-predict as a "weekly restock note" side hustle') including themes,
+[13/27] WINNER-PLAN-W2.md -> plans-and-decisions (high, 7.2s) The file 'WINNER-PLAN-W2.md' contains a detailed plan, gap analysis, and strategy notes related to a project ('tidy-predict') and a specific
+[14/27] judge-w2-v8-verdict.json -> machine-output (high, 0.0s) rule: .json always goes to machine-output
+[15/27] judge-w2-v9-verdict.json -> machine-output (high, 0.0s) rule: .json always goes to machine-output
+[16/27] week2-draft.md -> post-drafts (high, 7.1s) The file is a draft of a blog post, indicated by the content structure (title, tags, introduction, and body text) and the explicit warning '
+[17/27] week2-post-final.bak -> leave (high, 6.6s) machine-output only takes its own extensions, left alone: The file contains structured data (title, published status, tags) and describes a tool ('tidy-predict') that processes data to produce an 'e
+[18/27] week2-post-final.md -> leave (high, 6.7s) machine-output only takes its own extensions, left alone: The file appears to be a submission or a report detailing a project ('tidy-predict') that processes data (a shop's order export) and outputs
+[19/27] week2-post-v5.md -> post-drafts (high, 7.1s) The file is a markdown file with a title, tags, and a substantial body of text that appears to be a draft of a blog post, indicated by the '
+[20/27] week2-post-v6.md -> post-drafts (high, 6.9s) The file is a markdown file with a title, tags, and a substantial body of text that appears to be a draft of a blog post or submission, as a
+[21/27] week2-post-v7.md -> leave (high, 6.9s) machine-output only takes its own extensions, left alone: The file appears to be a submission or a note related to a project involving a tool ('tidy-predict') that processes data (a shop's messy/fuz
+[22/27] week2-post-v8.md -> post-drafts (high, 7.3s) The file is a markdown file (`.md`) containing a title, tags, and a narrative description of a project ('The rabbit night light sold 4,452. 
+[23/27] week2-post-v9-BODY.md -> post-drafts (high, 6.9s) The file is a markdown file (`.md`) containing a draft or version of a blog post, indicated by the title structure and the content which is叙
+[24/27] week2-post-v9-FINAL.md -> post-drafts (high, 6.8s) The file is a markdown file with a title, tags, and a narrative describing a project built for a challenge, which strongly suggests it is a 
+[25/27] week2-post-v9.md -> post-drafts (high, 7.1s) The file is a markdown file (`.md`) containing a title, tags, and a substantial body of text that appears to be a draft or submission for a 
+[26/27] week2-post.md -> post-drafts (high, 6.9s) The file is a draft of a blog post ('week2-post.md') with explicit instructions for rewriting, placeholders for content, and a title/tags, a
+[27/27] youtube-v8.md -> video-upload-text (high, 6.8s) The file 'youtube-v8.md' contains a title and a description explicitly for a YouTube video, including details about the video itself (file, 
+24 of 27 files would move; 0 skipped. Nothing was touched. Run `sloth apply`.
+
+real	2m52.706s
+user	0m0.092s
+sys	0m0.019s
+$ sloth report
+/tmp/claude-1000/real/e2e/files/sloth-plan.html
+$ sloth apply
+moved JUDGE-W2-R1.md -> judge-reports/
+moved JUDGE-W2-R2.md -> judge-reports/
+moved JUDGE-W2-R3.md -> judge-reports/
+moved JUDGE-W2-R4.md -> judge-reports/
+moved JUDGE-W2-R5.md -> judge-reports/
+moved JUDGE-W2-V6-CALIBRATED.md -> judge-reports/
+moved JUDGE-W2-V8-CALIBRATED.md -> judge-reports/
+moved JUDGE-W2-V9-CALIBRATED.md -> judge-reports/
+moved PLAN.md -> plans-and-decisions/
+moved SUBMIT-STEPS-WEEK2-v5.md -> submit-steps/
+moved SUBMIT-STEPS-WEEK2.md -> submit-steps/
+moved WEEK2-DECISION.md -> plans-and-decisions/
+moved WINNER-PLAN-W2.md -> plans-and-decisions/
+moved judge-w2-v8-verdict.json -> machine-output/
+moved judge-w2-v9-verdict.json -> machine-output/
+moved week2-draft.md -> post-drafts/
+moved week2-post-v5.md -> post-drafts/
+moved week2-post-v6.md -> post-drafts/
+moved week2-post-v8.md -> post-drafts/
+moved week2-post-v9-BODY.md -> post-drafts/
+moved week2-post-v9-FINAL.md -> post-drafts/
+moved week2-post-v9.md -> post-drafts/
+moved week2-post.md -> post-drafts/
+moved youtube-v8.md -> video-upload-text/
+{'moved': 24, 'refused': 0}
+$ ls
+/tmp/claude-1000/real/e2e/files:
+judge-reports
+machine-output
+plans-and-decisions
+post-drafts
+sloth-plan.html
+submit-steps
+video-upload-text
+week2-post-final.bak
+week2-post-final.md
+week2-post-v7.md
+
+/tmp/claude-1000/real/e2e/files/judge-reports:
+JUDGE-W2-R1.md
+JUDGE-W2-R2.md
+JUDGE-W2-R3.md
+JUDGE-W2-R4.md
+JUDGE-W2-R5.md
+JUDGE-W2-V6-CALIBRATED.md
+JUDGE-W2-V8-CALIBRATED.md
+JUDGE-W2-V9-CALIBRATED.md
+
+/tmp/claude-1000/real/e2e/files/machine-output:
+judge-w2-v8-verdict.json
+judge-w2-v9-verdict.json
+
+/tmp/claude-1000/real/e2e/files/plans-and-decisions:
+PLAN.md
+WEEK2-DECISION.md
+WINNER-PLAN-W2.md
+
+/tmp/claude-1000/real/e2e/files/post-drafts:
+week2-draft.md
+week2-post-v5.md
+week2-post-v6.md
+week2-post-v8.md
+week2-post-v9-BODY.md
+week2-post-v9-FINAL.md
+week2-post-v9.md
+week2-post.md
+
+/tmp/claude-1000/real/e2e/files/submit-steps:
+SUBMIT-STEPS-WEEK2-v5.md
+SUBMIT-STEPS-WEEK2.md
+
+/tmp/claude-1000/real/e2e/files/video-upload-text:
+youtube-v8.md
+$ sloth undo
+restored youtube-v8.md
+restored week2-post.md
+restored week2-post-v9.md
+restored week2-post-v9-FINAL.md
+restored week2-post-v9-BODY.md
+restored week2-post-v8.md
+restored week2-post-v6.md
+restored week2-post-v5.md
+restored week2-draft.md
+restored judge-w2-v9-verdict.json
+restored judge-w2-v8-verdict.json
+restored WINNER-PLAN-W2.md
+restored WEEK2-DECISION.md
+restored SUBMIT-STEPS-WEEK2.md
+restored SUBMIT-STEPS-WEEK2-v5.md
+restored PLAN.md
+restored JUDGE-W2-V9-CALIBRATED.md
+restored JUDGE-W2-V8-CALIBRATED.md
+restored JUDGE-W2-V6-CALIBRATED.md
+restored JUDGE-W2-R5.md
+restored JUDGE-W2-R4.md
+restored JUDGE-W2-R3.md
+restored JUDGE-W2-R2.md
+restored JUDGE-W2-R1.md
+{'restored': 24, 'refused': 0}
+UNDO CHECK: all 27 files are back, byte for byte

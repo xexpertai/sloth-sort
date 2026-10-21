@@ -1,0 +1,47 @@
+1 27 JUDGE-W2-R1.md -> judge-reports high 13.7
+2 27 JUDGE-W2-R2.md -> judge-reports high 18.0
+3 27 JUDGE-W2-R3.md -> judge-reports high 15.7
+4 27 JUDGE-W2-R4.md -> judge-reports high 15.1
+5 27 JUDGE-W2-R5.md -> judge-reports high 16.1
+6 27 JUDGE-W2-V6-CALIBRATED.md -> judge-reports high 15.4
+7 27 JUDGE-W2-V8-CALIBRATED.md -> judge-reports high 14.7
+8 27 JUDGE-W2-V9-CALIBRATED.md -> judge-reports high 15.5
+9 27 PLAN.md -> plans-and-decisions high 15.5
+10 27 SUBMIT-STEPS-WEEK2-v5.md -> submit-steps high 17.4
+11 27 SUBMIT-STEPS-WEEK2.md -> submit-steps high 17.5
+12 27 WEEK2-DECISION.md -> plans-and-decisions high 17.5
+13 27 WINNER-PLAN-W2.md -> plans-and-decisions high 21.9
+14 27 judge-w2-v8-verdict.json -> judge-reports high 21.9
+15 27 judge-w2-v9-verdict.json -> judge-reports high 20.0
+16 27 week2-draft.md -> post-drafts high 15.6
+17 27 week2-post-final.bak -> machine-output high 13.9
+18 27 week2-post-final.md -> machine-output high 14.2
+19 27 week2-post-v5.md -> post-drafts high 14.4
+20 27 week2-post-v6.md -> post-drafts high 14.3
+21 27 week2-post-v7.md -> machine-output high 14.7
+22 27 week2-post-v8.md -> post-drafts high 15.4
+23 27 week2-post-v9-BODY.md -> post-drafts high 15.3
+24 27 week2-post-v9-FINAL.md -> post-drafts high 15.2
+25 27 week2-post-v9.md -> post-drafts high 15.4
+26 27 week2-post.md -> post-drafts high 14.9
+27 27 youtube-v8.md -> video-upload-text high 16.0
+{
+ "model": "gemma-4-E2B-it-Q4_0",
+ "baseline": {
+  "files": 27,
+  "right_moves": 2,
+  "wrong_moves": 0,
+  "left_correctly": 0,
+  "left_but_should_move": 25,
+  "accuracy": 0.074
+ },
+ "sloth": {
+  "files": 27,
+  "right_moves": 22,
+  "wrong_moves": 5,
+  "left_correctly": 0,
+  "left_but_should_move": 0,
+  "accuracy": 0.815
+ },
+ "mean_seconds_per_file": 16.1
+}

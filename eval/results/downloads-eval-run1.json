@@ -1,0 +1,671 @@
+{
+ "model": "gemma-4-E2B-it-Q4_0",
+ "ignored_for_days": 7.0,
+ "total_files": 72,
+ "eligible_files": 58,
+ "active_files_left_alone": 14,
+ "baseline_on_eligible": {
+  "files": 58,
+  "right_moves": 31,
+  "wrong_moves": 16,
+  "left_correctly": 3,
+  "left_but_should_move": 8,
+  "accuracy": 0.586
+ },
+ "sloth_on_eligible": {
+  "files": 58,
+  "right_moves": 46,
+  "wrong_moves": 8,
+  "left_correctly": 3,
+  "left_but_should_move": 1,
+  "accuracy": 0.845
+ },
+ "active_files_disturbed": {
+  "baseline": 14,
+  "sloth": 0,
+  "of": 14
+ },
+ "total_model_seconds": 560.5,
+ "wall_seconds": 560.8,
+ "mean_seconds_per_file": 9.7,
+ "skipped": [
+  {
+   "file": "Kelvin router KR-300 manual.pdf",
+   "why": "touched 1.5 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "Screenshot 2026-10-17 at 10.58.57.png",
+   "why": "touched 4.7 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "Screenshot 2026-10-17 at 9.41.30.png",
+   "why": "touched 2.7 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "Screenshot 2026-10-18 at 15.17.43.png",
+   "why": "touched 0.6 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "boarding-pass-this-week.pdf",
+   "why": "touched 1.6 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "copy of copy(3).pdf",
+   "why": "touched 1.3 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "copy of copy(4).pdf",
+   "why": "touched 0.8 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "disk-flasher-1.18.12.AppImage",
+   "why": "touched 2.0 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "latest(1).pdf",
+   "why": "touched 2.2 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "local-llm-runner-linux-amd64.deb",
+   "why": "touched 0.4 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "monday_mood_NEW.jpg",
+   "why": "touched 0.7 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "paper-to-read-tonight.pdf",
+   "why": "touched 1.2 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "tax-statement-draft.pdf",
+   "why": "touched 3.0 days ago, less than 7: you may still be using it"
+  },
+  {
+   "file": "this_is_fine_remix_2.png",
+   "why": "touched 0.5 days ago, less than 7: you may still be using it"
+  }
+ ],
+ "rows": [
+  {
+   "file": "IMG-20260811-chat0004.gif",
+   "truth": "memes",
+   "baseline": "memes",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'IMG-20260811-chat0004.gif' strongly suggests it is an image, and the 'screenshots' folder is the most appropriate place for a",
+   "source": "model",
+   "seconds": 12.5
+  },
+  {
+   "file": "Screen Shot 2026-02-14.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screen Shot 2026-02-14.png' strongly suggests it is a screenshot.",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "Screen Shot 2026-06-21.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screen Shot 2026-06-21.png' strongly suggests it is a screenshot.",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "Screenshot 2026-03-18 at 19.11.33.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name explicitly indicates it is a screenshot.",
+   "source": "model",
+   "seconds": 7.5
+  },
+  {
+   "file": "Screenshot 2026-05-12 at 20.35.56.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name explicitly indicates it is a screenshot.",
+   "source": "model",
+   "seconds": 7.9
+  },
+  {
+   "file": "Screenshot 2026-06-13 at 19.17.52.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot 2026-06-13 at 19.17.52.png' strongly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 10.9
+  },
+  {
+   "file": "Screenshot_20260113-215225.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260113-215225.png' strongly suggests it is a screenshot.",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "Screenshot_20260319-235138.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260319-235138.png' strongly indicates that the file is a screenshot.",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "Screenshot_20260723-154220.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260723-154220.png' strongly suggests it is a screenshot.",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "Screenshot_20260825-165623.png",
+   "truth": "screenshots",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'Screenshot_20260825-165623.png' strongly suggests it is a screenshot.",
+   "source": "model",
+   "seconds": 8.9
+  },
+  {
+   "file": "Untitled1.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice with an invoice number, date, items, subtotal, tax, and total due, which clearly belongs in the 'invoices-and",
+   "source": "model",
+   "seconds": 11.4
+  },
+  {
+   "file": "archiver-setup-x64.exe",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'archiver-setup-x64.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 8.8
+  },
+  {
+   "file": "attachment.pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file content, starting with 'Federated averaging with stragglers A. Example, B. Sample (fictional authors) Abstract. We study federated'",
+   "source": "model",
+   "seconds": 11.3
+  },
+  {
+   "file": "attachment.txt",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with a transaction amount and mentions keeping it for warranty and tax filing, which aligns perfectly with the '",
+   "source": "model",
+   "seconds": 9.9
+  },
+  {
+   "file": "cat_laptop.png",
+   "truth": "memes",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'cat_laptop.png' strongly suggests it is an image, and the 'screenshots' folder is the most appropriate category for image-of-",
+   "source": "model",
+   "seconds": 9.8
+  },
+  {
+   "file": "code-editor-setup-x64-1.88.1.exe",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'code-editor-setup-x64-1.88.1.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 9.4
+  },
+  {
+   "file": "container-tool-installer.dmg",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'container-tool-installer.dmg' strongly suggests it is a software installer package.",
+   "source": "model",
+   "seconds": 8.3
+  },
+  {
+   "file": "copy of copy(1).pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 10.3
+  },
+  {
+   "file": "copy of copy(2).pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 10.8
+  },
+  {
+   "file": "copy of copy.eml",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The email subject and content explicitly mention a payment and an attached invoice, which directly corresponds to the contents of the 'invo-",
+   "source": "model",
+   "seconds": 10.7
+  },
+  {
+   "file": "copy of copy.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 10.3
+  },
+  {
+   "file": "copy of copy.txt",
+   "truth": "travel-tickets",
+   "baseline": "leave",
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file contains a hotel booking confirmation, which falls under the category of travel-related documents.",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "document.pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 10.1
+  },
+  {
+   "file": "download.eml",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content explicitly mentions a payment and an attached invoice, which directly corresponds to the description of the 'invoices-and-t",
+   "source": "model",
+   "seconds": 9.9
+  },
+  {
+   "file": "download.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice with an invoice number, date, items, subtotal, tax, and total due, which clearly belongs in the 'invoices-and",
+   "source": "model",
+   "seconds": 11.5
+  },
+  {
+   "file": "download.txt",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with details about a payment and a request to keep it for warranty and tax filing, which directly matches the 'f",
+   "source": "model",
+   "seconds": 10.6
+  },
+  {
+   "file": "final(1).pdf",
+   "truth": "travel-tickets",
+   "baseline": "invoices-receipts",
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel-tickets' folder.",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "final(2).pdf",
+   "truth": "travel-tickets",
+   "baseline": "invoices-receipts",
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel-tickets' folder.",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "final.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice with an invoice number, date, items, subtotal, tax, and total due, which clearly belongs in the 'invoices-and",
+   "source": "model",
+   "seconds": 11.6
+  },
+  {
+   "file": "final.txt",
+   "truth": "leave",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains a list of gift ideas, which does not clearly fit into any of the provided specific categories (invoices, travel, manuals,,",
+   "source": "model",
+   "seconds": 9.4
+  },
+  {
+   "file": "image(3).png",
+   "truth": "memes",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'image(3).png' strongly suggests it is an image, and 'screenshots' is the most appropriate category for image files.",
+   "source": "model",
+   "seconds": 9.6
+  },
+  {
+   "file": "image(7).png",
+   "truth": "memes",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'image(7).png' strongly suggests it is an image, and the 'screenshots' folder is the most appropriate place for such files.",
+   "source": "model",
+   "seconds": 10.0
+  },
+  {
+   "file": "image-editor-setup-2.10.36.exe",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'image-editor-setup-2.10.36.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "js-runtime-v20.11.1-x64.msi",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'js-runtime-v20.11.1-x64.msi' strongly suggests it is a software installer package.",
+   "source": "model",
+   "seconds": 9.4
+  },
+  {
+   "file": "latest.pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file content starts with academic/technical language ('Sparse attention for long documents', 'Abstract', 'Introduction', 'Related work')",
+   "source": "model",
+   "seconds": 9.6
+  },
+  {
+   "file": "latest.txt",
+   "truth": "leave",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains lyrics, which does not clearly fit into any of the provided specific categories (invoices, travel, manuals, screenshots,,,",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "me_on_monday.gif",
+   "truth": "memes",
+   "baseline": "memes",
+   "folder": "memes",
+   "confidence": "high",
+   "reason": "The file name ends with '.gif', which is a common format for images, and the file type is a GIF, strongly suggesting it is a meme or an \uc774\ubbf8\uc9c0.",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "media-player-3.0.20-win64.exe",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'media-player-3.0.20-win64.exe' strongly suggests it is a software installer.",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "monday_mood.gif",
+   "truth": "memes",
+   "baseline": "memes",
+   "folder": "memes",
+   "confidence": "high",
+   "reason": "The file name 'monday_mood.gif' strongly suggests it is an image, and the 'memes' folder is the only category that fits a general image file",
+   "source": "model",
+   "seconds": 10.2
+  },
+  {
+   "file": "no_one_ever.gif",
+   "truth": "memes",
+   "baseline": "memes",
+   "folder": "memes",
+   "confidence": "high",
+   "reason": "The file name ends with '.gif', which is a common format for images, and the file name 'no_one_ever.gif' strongly suggests it is a meme or a",
+   "source": "model",
+   "seconds": 10.0
+  },
+  {
+   "file": "notes-app_1.5.12_amd64.deb",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'notes-app_1.5.12_amd64.deb' strongly suggests it is a software installer package (a Debian package format).",
+   "source": "model",
+   "seconds": 9.7
+  },
+  {
+   "file": "output.pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a survey of quantisation methods with an abstract, introduction, and related work, which strongly suggests it is a pieceof",
+   "source": "model",
+   "seconds": 10.2
+  },
+  {
+   "file": "received_88231.jpg",
+   "truth": "memes",
+   "baseline": "memes",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name ends with '.jpg', which strongly suggests it is an image, and the 'screenshots' folder is the most appropriate category for an",
+   "source": "model",
+   "seconds": 9.1
+  },
+  {
+   "file": "scripting-runtime-3.12.2-amd64.exe",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name 'scripting-runtime-3.12.2-amd64.exe' strongly suggests it is a software installer or runtime environment for a programming or ",
+   "source": "model",
+   "seconds": 9.9
+  },
+  {
+   "file": "social_IMG_1698452.png",
+   "truth": "memes",
+   "baseline": "screenshots",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name 'social_IMG_1698452.png' strongly suggests it is an image, and the 'screenshots' folder is the most appropriate category for a",
+   "source": "model",
+   "seconds": 10.3
+  },
+  {
+   "file": "temp(1).pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file content appears to be an academic or technical document, starting with 'Learning rate warm-up revisited' and mentioning 'Abstract's",
+   "source": "model",
+   "seconds": 10.0
+  },
+  {
+   "file": "temp.pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 9.8
+  },
+  {
+   "file": "this_is_fine_remix.jpg",
+   "truth": "memes",
+   "baseline": "memes",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name ends with '.jpg', which strongly suggests it is an image, and the 'screenshots' folder is the most appropriate category for an",
+   "source": "model",
+   "seconds": 8.9
+  },
+  {
+   "file": "two_panel_but_make_it_tea.png",
+   "truth": "memes",
+   "baseline": "screenshots",
+   "folder": "memes",
+   "confidence": "high",
+   "reason": "The file name 'two_panel_but_make_it_tea.png' suggests an image, and the 'memes' folder is the most appropriate category for such content.",
+   "source": "model",
+   "seconds": 9.7
+  },
+  {
+   "file": "untitled(1).pdf",
+   "truth": "travel-tickets",
+   "baseline": "invoices-receipts",
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file content clearly indicates a boarding pass, which belongs in the 'travel-tickets' folder.",
+   "source": "model",
+   "seconds": 8.7
+  },
+  {
+   "file": "untitled.pdf",
+   "truth": "invoices-receipts",
+   "baseline": "invoices-receipts",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file content is an invoice, which directly matches the description of the 'invoices-receipts' folder.",
+   "source": "model",
+   "seconds": 9.3
+  },
+  {
+   "file": "untitled.txt",
+   "truth": "travel-tickets",
+   "baseline": "leave",
+   "folder": "travel-tickets",
+   "confidence": "high",
+   "reason": "The file contains a hotel booking confirmation, which falls under the category of travel-related documents.",
+   "source": "model",
+   "seconds": 8.4
+  },
+  {
+   "file": "video-meeting_amd64.deb",
+   "truth": "installers",
+   "baseline": "installers",
+   "folder": "installers",
+   "confidence": "high",
+   "reason": "The file name '.deb' strongly suggests a Debian package, which is typically used for software installation, fitting the 'installers' folder.",
+   "source": "model",
+   "seconds": 8.8
+  },
+  {
+   "file": "web-browser-125.0.tar.bz2",
+   "truth": "installers",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file name 'web-browser-125.0.tar.bz2' suggests it is a compressed archive of a web browser. While it could potentially contain installer",
+   "source": "model",
+   "seconds": 9.5
+  },
+  {
+   "file": "when_the_build_passes.jpg",
+   "truth": "memes",
+   "baseline": "memes",
+   "folder": "screenshots",
+   "confidence": "high",
+   "reason": "The file name ends with '.jpg', which strongly suggests it is an image, and the 'screenshots' folder is the most appropriate category for an",
+   "source": "model",
+   "seconds": 9.0
+  },
+  {
+   "file": "x(1).txt",
+   "truth": "leave",
+   "baseline": "leave",
+   "folder": "leave",
+   "confidence": "low",
+   "reason": "The file contains random personal thoughts and suggestions, which does not clearly fit into any of the provided specific categories.",
+   "source": "model",
+   "seconds": 8.2
+  },
+  {
+   "file": "x.pdf",
+   "truth": "manuals-and-papers",
+   "baseline": "invoices-receipts",
+   "folder": "manuals-and-papers",
+   "confidence": "high",
+   "reason": "The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder.",
+   "source": "model",
+   "seconds": 10.3
+  },
+  {
+   "file": "x.txt",
+   "truth": "invoices-receipts",
+   "baseline": "leave",
+   "folder": "invoices-receipts",
+   "confidence": "high",
+   "reason": "The file contains a receipt with a transaction amount and mentions keeping it for warranty and tax filing, which aligns perfectly with the '",
+   "source": "model",
+   "seconds": 9.7
+  }
+ ]
+}

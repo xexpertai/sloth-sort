@@ -1,0 +1,342 @@
+[
+ [
+  0.0,
+  "cmd",
+  "ls -l --time-style=+%F Downloads | sed 's/^[^ ]* *[^ ]* *[^ ]* *[^ ]* *//'"
+ ],
+ [
+  0.01,
+  "out",
+  ""
+ ],
+ [
+  0.01,
+  "out",
+  "1430 2026-04-30 IMG-20260811-chat0004.gif"
+ ],
+ [
+  0.01,
+  "out",
+  "1170 2026-07-18 Kelvin router KR-300 manual.pdf"
+ ],
+ [
+  0.01,
+  "out",
+  "2014 2026-06-17 Screen Shot 2026-02-14.png"
+ ],
+ [
+  0.01,
+  "out",
+  "1997 2026-07-17 Screen Shot 2026-06-21.png"
+ ],
+ [
+  0.01,
+  "out",
+  "1134 2026-05-14 Untitled1.pdf"
+ ],
+ [
+  0.01,
+  "out",
+  "2070 2026-08-13 archiver-setup-x64.exe"
+ ],
+ [
+  0.01,
+  "out",
+  "1188 2026-06-15 attachment.pdf"
+ ],
+ [
+  0.01,
+  "out",
+  "110 2026-05-20 attachment.txt"
+ ],
+ [
+  0.01,
+  "out",
+  "2070 2026-06-29 code-editor-setup-x64-1.88.1.exe"
+ ],
+ [
+  0.01,
+  "out",
+  "1170 2026-06-03 copy of copy(2).pdf"
+ ],
+ [
+  0.01,
+  "out",
+  "144 2026-04-06 copy of copy.txt"
+ ],
+ [
+  0.01,
+  "out",
+  "61 2026-04-06 final.txt"
+ ],
+ [
+  0.01,
+  "out",
+  "2564 2026-10-20 monday_mood_NEW.jpg"
+ ],
+ [
+  0.01,
+  "out",
+  "1188 2026-10-19 paper-to-read-tonight.pdf"
+ ],
+ [
+  0.01,
+  "cmd",
+  "/home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/.venv/bin/sloth plan Downloads --config /home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/eval/downloads.toml --nice 19"
+ ],
+ [
+  0.08,
+  "out",
+  "rule: only files untouched for 7 days"
+ ],
+ [
+  0.08,
+  "out",
+  "model: gemma-4-E2B-it-Q4_0"
+ ],
+ [
+  0.08,
+  "out",
+  "left alone Kelvin router KR-300 manual.pdf: touched 1.5 days ago, less than 7: you may still be using it"
+ ],
+ [
+  0.08,
+  "out",
+  "left alone monday_mood_NEW.jpg: touched 0.7 days ago, less than 7: you may still be using it"
+ ],
+ [
+  0.08,
+  "out",
+  "left alone paper-to-read-tonight.pdf: touched 1.2 days ago, less than 7: you may still be using it"
+ ],
+ [
+  14.39,
+  "out",
+  "[1/11] IMG-20260811-chat0004.gif -> leave (low, 14.3s) The file name 'IMG-20260811-chat0004.gif' is generic and does not clearly indicate its contents belong to any of the specific categories. It"
+ ],
+ [
+  24.79,
+  "out",
+  "[2/11] Screen Shot 2026-02-14.png -> screenshots (high, 10.4s) The file name 'Screen Shot 2026-02-14.png' strongly suggests it is a screenshot."
+ ],
+ [
+  34.88,
+  "out",
+  "[3/11] Screen Shot 2026-06-21.png -> screenshots (high, 10.1s) The file name 'Screen Shot 2026-06-21.png' strongly suggests it is a screenshot."
+ ],
+ [
+  46.33,
+  "out",
+  "[4/11] Untitled1.pdf -> invoices-receipts (high, 11.3s) The file content is an invoice with an invoice number, date, items, subtotal, tax, and total due, which clearly belongs in the 'invoices-and"
+ ],
+ [
+  56.0,
+  "out",
+  "[5/11] archiver-setup-x64.exe -> installers (high, 9.7s) The file name 'archiver-setup-x64.exe' strongly suggests it is a software installer."
+ ],
+ [
+  66.73,
+  "out",
+  "[6/11] attachment.pdf -> manuals-and-papers (high, 10.7s) The file content, starting with 'Federated averaging with stragglers A. Example, B. Sample (fictional authors) Abstract. We study federated'"
+ ],
+ [
+  76.77,
+  "out",
+  "[7/11] attachment.txt -> invoices-receipts (high, 10.0s) The file contains a receipt with a transaction amount and mentions keeping it for warranty and tax filing, which aligns perfectly with the '"
+ ],
+ [
+  87.34,
+  "out",
+  "[8/11] code-editor-setup-x64-1.88.1.exe -> installers (high, 10.6s) The file name 'code-editor-setup-x64-1.88.1.exe' strongly suggests it is a software installer."
+ ],
+ [
+  97.41,
+  "out",
+  "[9/11] copy of copy(2).pdf -> manuals-and-papers (high, 10.1s) The file contains a 'USER MANUAL' for a product, which clearly belongs in the 'manuals-and-papers' folder."
+ ],
+ [
+  105.95,
+  "out",
+  "[10/11] copy of copy.txt -> travel-tickets (high, 8.5s) The file contains a hotel booking confirmation, which falls under the category of travel-related documents."
+ ],
+ [
+  114.73,
+  "out",
+  "[11/11] final.txt -> leave (low, 8.8s) The file contains a list of gift ideas, which does not clearly fit into any of the provided specific categories (invoices, travel, manuals,,"
+ ],
+ [
+  114.73,
+  "out",
+  "9 of 11 files would move; 3 left alone (touched recently). Nothing was touched. Run `sloth apply`."
+ ],
+ [
+  114.77,
+  "cmd",
+  "/home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/.venv/bin/sloth apply Downloads --config /home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/eval/downloads.toml"
+ ],
+ [
+  114.84,
+  "out",
+  "rule: only files untouched for 7 days"
+ ],
+ [
+  114.85,
+  "out",
+  "moved Screen Shot 2026-02-14.png -> screenshots/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved Screen Shot 2026-06-21.png -> screenshots/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved Untitled1.pdf -> invoices-receipts/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved archiver-setup-x64.exe -> installers/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved attachment.pdf -> manuals-and-papers/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved attachment.txt -> invoices-receipts/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved code-editor-setup-x64-1.88.1.exe -> installers/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved copy of copy(2).pdf -> manuals-and-papers/"
+ ],
+ [
+  114.85,
+  "out",
+  "moved copy of copy.txt -> travel-tickets/"
+ ],
+ [
+  114.85,
+  "out",
+  "{'moved': 9, 'refused': 0}"
+ ],
+ [
+  114.86,
+  "cmd",
+  "ls Downloads"
+ ],
+ [
+  114.87,
+  "out",
+  "IMG-20260811-chat0004.gif"
+ ],
+ [
+  114.87,
+  "out",
+  "Kelvin router KR-300 manual.pdf"
+ ],
+ [
+  114.87,
+  "out",
+  "final.txt"
+ ],
+ [
+  114.87,
+  "out",
+  "installers"
+ ],
+ [
+  114.87,
+  "out",
+  "invoices-receipts"
+ ],
+ [
+  114.87,
+  "out",
+  "manuals-and-papers"
+ ],
+ [
+  114.87,
+  "out",
+  "monday_mood_NEW.jpg"
+ ],
+ [
+  114.87,
+  "out",
+  "paper-to-read-tonight.pdf"
+ ],
+ [
+  114.87,
+  "out",
+  "screenshots"
+ ],
+ [
+  114.87,
+  "out",
+  "travel-tickets"
+ ],
+ [
+  114.87,
+  "cmd",
+  "/home/harsha/workspace/dev-hacktoberfest/week3/sloth-sort/.venv/bin/sloth undo Downloads"
+ ],
+ [
+  114.95,
+  "out",
+  "restored copy of copy.txt"
+ ],
+ [
+  114.95,
+  "out",
+  "restored copy of copy(2).pdf"
+ ],
+ [
+  114.95,
+  "out",
+  "restored code-editor-setup-x64-1.88.1.exe"
+ ],
+ [
+  114.95,
+  "out",
+  "restored attachment.txt"
+ ],
+ [
+  114.95,
+  "out",
+  "restored attachment.pdf"
+ ],
+ [
+  114.95,
+  "out",
+  "restored archiver-setup-x64.exe"
+ ],
+ [
+  114.95,
+  "out",
+  "restored Untitled1.pdf"
+ ],
+ [
+  114.95,
+  "out",
+  "restored Screen Shot 2026-06-21.png"
+ ],
+ [
+  114.95,
+  "out",
+  "restored Screen Shot 2026-02-14.png"
+ ],
+ [
+  114.95,
+  "out",
+  "{'restored': 9, 'refused': 0}"
+ ]
+]

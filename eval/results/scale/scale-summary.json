@@ -1,0 +1,46 @@
+{
+ "batches": 23,
+ "files_in_batches": 920,
+ "planned": 637,
+ "left_alone_7d": 283,
+ "eligible_total": 700,
+ "model_seconds": 7868.8,
+ "wall_seconds": 7889,
+ "files_per_min": 4.84,
+ "moves": 189,
+ "folders": {
+  "leave": 448,
+  "manuals-and-papers": 72,
+  "installers": 70,
+  "screenshots": 36,
+  "invoices-receipts": 11
+ },
+ "confidence": {
+  "low": 447,
+  "high": 190
+ },
+ "source": {
+  "model": 636,
+  "baseline": 1
+ },
+ "bykind": {
+  "image": {
+   "leave": 263,
+   "screenshots": 36
+  },
+  "text": {
+   "manuals-and-papers": 41,
+   "leave": 4
+  },
+  "pdf": {
+   "leave": 29,
+   "manuals-and-papers": 31,
+   "invoices-receipts": 1
+  },
+  "generated": {
+   "installers": 70,
+   "leave": 152,
+   "invoices-receipts": 10
+  }
+ }
+}

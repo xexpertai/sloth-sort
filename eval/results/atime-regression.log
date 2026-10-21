@@ -1,0 +1,8 @@
+# Regression evidence, 20 Oct 2026: reading a file counts as opening it (ext4, relatime)
+file last opened/modified 30.0 days ago; days since atime: 30.0
+after a plain open()+read():   days since atime = 0.0 -> the file now looks fresh
+after open(O_NOATIME)+read():  days since atime = 30.0 -> still forgotten
+
+# Same effect with cp -a on files that are 10 to 90 days old:
+before cp -a: source atime 2026-10-10
+after  cp -a: source atime 2026-10-20 (today); the copy keeps 2026-10-10
